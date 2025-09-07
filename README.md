@@ -1,32 +1,28 @@
-# 📧 Cold Mail Generator
-Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions. 
+## 📧 ColdConnectAI – AI-Powered Cold Email Generator
 
-**Imagine a scenario:**
+ColdConnectAI is a Streamlit-based web application that leverages AI to generate professional and personalized cold emails in seconds. Perfect for outreach to clients, partners, or collaborators, the platform ensures your emails are engaging, concise, and effective.
 
-- Nike needs a Principal Software Engineer and is spending time and resources in the hiring process, on boarding, training etc
-- Atliq is Software Development company can provide a dedicated software development engineer to Nike. So, the business development executive (Mohan) from Atliq is going to reach out to Nike via a cold email.
+# 🚀 Features
 
-![img.png](imgs/img.png)
+✉️ Personalized Cold Emails – Generate emails tailored to your audience and purpose
 
-## Architecture Diagram
-![img.png](imgs/architecture.png)
+🤖 AI-Powered Suggestions – Uses advanced language models for context-aware email generation
 
-## Set-up
-1. To get started we first need to get an API_KEY from here: https://console.groq.com/keys. Inside `app/.env` update the value of `GROQ_API_KEY` with the API_KEY you created. 
+⚡ Customizable Tone & Length – Adjust tone (formal, casual, persuasive) and email length
 
+🎨 Modern UI – Sleek Streamlit interface for easy input and output
 
-2. To get started, first install the dependencies using:
-    ```commandline
-     pip install -r requirements.txt
-    ```
-   
-3. Run the streamlit app:
-   ```commandline
-   streamlit run app/main.py
-   ```
-   
+💡 Quick Copy & Export – Copy generated emails directly or save for later use
 
-Copyright (C) Codebasics Inc. All rights reserved.
+# 🖼️ Demo
+<img width="1890" height="834" alt="image" src="https://github.com/user-attachments/assets/d164c6cd-429c-4818-aba3-b08242c0905e" />
 
-**Additional Terms:**
-This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
+# 🏗️ Tech Stack
+
+Backend: Python, Streamlit, LangChain, OpenAI API
+
+Frontend: Streamlit, HTML, CSS
+
+Machine Learning: GPT-based models (via LangChain integration)
+
+Data Storage: CSV / local file storage for sample portfolio content
